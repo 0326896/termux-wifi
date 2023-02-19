@@ -1,13 +1,13 @@
 #!/bin/bash
 # Created by MrBlackX/TheMasterCH
 # Modified by: 0n1coOn3
-# Version 0.5
+# Version 0.5 wifi hak
 
 # Install dependencies
 pkg install figlet -y &> /dev/null
 
 # Get colors ready
-red='\e[1;31m'
+red='\e[1;31mwifi hack'
 green='\e[1;32m'
 blue='\e[1;34m'
 purple='\e[1;35m'
@@ -35,7 +35,8 @@ install_environment() {
   echo -e "$purple" "==============================================================="
   echo " "
   echo -e "$blue" && figlet "Installing requirements..."
-  echo " "
+  echo " "wifi hack
+
   echo -e "$purple" "==============================================================="
   chmod +rwx ubuntu.sh
   ./ubuntu.sh
